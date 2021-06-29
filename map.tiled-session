@@ -1,0 +1,262 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "bin/Debug/net5.0/Test1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Program Files/Tiled/examples/desert.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 639.6666666666666,
+                "y": 639.6666666666667
+            }
+        },
+        "C:/Program Files/Tiled/examples/desert.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/hexagonal-mini.tmx": {
+            "scale": 4.57,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 144.7483588621444,
+                "y": 98.14004376367615
+            }
+        },
+        "C:/Program Files/Tiled/examples/hexagonal-mini.tmx#hex mini": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/isometric_grass_and_water.tmx": {
+            "scale": 0.8377812499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 800.3282479764259,
+                "y": 393.89757171099257
+            }
+        },
+        "C:/Program Files/Tiled/examples/isometric_grass_and_water.tmx#isometric_grass_and_water": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/orthogonal-outside.tmx": {
+            "scale": 1.7506048387096773,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 372.728319705171,
+                "y": 248.485546470114
+            }
+        },
+        "C:/Program Files/Tiled/examples/orthogonal-outside.tmx#outdoor": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/perspective_walls.tmx": {
+            "scale": 0.8471219512195122,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 497.56708510883334,
+                "y": 482.2210065645515
+            }
+        },
+        "C:/Program Files/Tiled/examples/perspective_walls.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/rule_001.tmx": {
+            "scale": 7.074107142857143,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 83.8975135680929,
+                "y": 36.117632210021455
+            }
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/rule_001.tmx#rules_sewers": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/rule_001.tmx#sewer_tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/sewers.tmx": {
+            "scale": 1.1709005376344084,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 371.9359467370718,
+                "y": 371.9359467370718
+            }
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/sewers.tmx#rules_sewers": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/sewer_automap/sewers.tmx#sewer_tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files/Tiled/examples/sewers.tmx": {
+            "scale": 0.7235833333333334,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 599.1016929632614,
+                "y": 597.7196821375101
+            }
+        },
+        "C:/Program Files/Tiled/examples/sewers.tmx#sewer_tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Kenneth Wilhelmsen/Desktop/0x72_16x16DungeonTileset.v4.tsx": {
+            "scaleInDock": 2
+        },
+        "C:/Users/Kenneth Wilhelmsen/Desktop/untitled.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 157.66666666666666,
+                "y": 140.5
+            }
+        },
+        "C:/Users/Kenneth Wilhelmsen/Downloads/0x72_16x16DungeonTileset.v4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Kenneth Wilhelmsen/Tileset.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Kenneth Wilhelmsen/source/repos/ExampleGame/ExampleGame/Tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/Kenneth Wilhelmsen/source/repos/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Kenneth Wilhelmsen/source/repos/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/map.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 565.5,
+                "y": 398
+            }
+        },
+        "C:/Users/Kenneth Wilhelmsen/source/repos/ExampleGame/ExampleGame/map.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 144,
+                "y": 908
+            }
+        },
+        "C:/Users/Kenneth Wilhelmsen/ukjent tittel.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1410.6666666666665,
+                "y": 1644.6666666666665
+            }
+        },
+        "D:/Code/ExampleGame/ExampleGame/0x72_16x16DungeonTileset.v4.tsx": {
+            "scaleInDock": 1
+        },
+        "D:/Code/ExampleGame/ExampleGame/Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/0x72_16x16DungeonTileset.v4.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/map.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 636.5,
+                "y": 384.5
+            }
+        },
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/untitled.tmx": {
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 325.5,
+                "y": 104
+            }
+        },
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/untitled.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 187.33333333333331,
+                "y": 145.66666666666666
+            }
+        },
+        "D:/Code/ExampleGame/ExampleGame/untitled.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 373.5,
+                "y": 393
+            }
+        },
+        "D:/Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "Testlevel1.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 807.5757575757577,
+                "y": 1156.0606060606058
+            }
+        },
+        "Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bin/Debug/net5.0/Test1.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 506,
+                "y": 374.5
+            }
+        },
+        "bin/Debug/net5.0/Testlevel1.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 388.6666666666667,
+                "y": 294.3333333333333
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/Kenneth Wilhelmsen/Downloads",
+    "last.imagePath": "D:/Code/Kata/Game",
+    "map.height": 20,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 32,
+    "openFiles": [
+        "bin/Debug/net5.0/Test1.tmx",
+        "Tileset.tsx"
+    ],
+    "project": "map.tiled-project",
+    "property.type": "object",
+    "recentFiles": [
+        "Tileset.tsx",
+        "bin/Debug/net5.0/Test1.tmx",
+        "bin/Debug/net5.0/Testlevel1.tmx",
+        "D:/Code/ExampleGame/ExampleGame/untitled.tmx",
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/map.tmx",
+        "D:/Code/ExampleGame/ExampleGame/bin/Debug/netcoreapp3.1/untitled.tmx",
+        "C:/Program Files/Tiled/examples/sewers.tmx",
+        "C:/Program Files/Tiled/examples/perspective_walls.tmx",
+        "C:/Program Files/Tiled/examples/hexagonal-mini.tmx",
+        "C:/Program Files/Tiled/examples/desert.tmx",
+        "C:/Program Files/Tiled/examples/sewer_automap/rule_001.tmx",
+        "C:/Program Files/Tiled/examples/sewer_automap/sewers.tmx"
+    ],
+    "stampsFolder": "C:/Users/Kenneth Wilhelmsen/AppData/Roaming/Tiled",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
