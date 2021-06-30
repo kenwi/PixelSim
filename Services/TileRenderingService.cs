@@ -6,7 +6,7 @@ using TiledSharp;
 
 namespace PixelSim.Services
 {
-    public class TiledRenderer
+    public class TileRenderingService
     {
         private class RenderLayer
         {
@@ -20,13 +20,13 @@ namespace PixelSim.Services
                 public ICollection<TmxAnimationFrame> animInfo;
             }
 
-            private TiledRenderer renderer;
+            private TileRenderingService renderer;
             private TmxMap map;
             private TmxLayer layer;
             private IList<AnimIndex> anims = new List<AnimIndex>();
             private Dictionary<string, Vertex[]> vertices = new Dictionary<string, Vertex[]>();
 
-            public RenderLayer(TiledRenderer renderer, string layer)
+            public RenderLayer(TileRenderingService renderer, string layer)
             {
                 this.renderer = renderer;
                 this.map = renderer.map;
@@ -249,7 +249,7 @@ namespace PixelSim.Services
         internal Clock clock = new Clock();
         internal Dictionary<string, Texture> tilesheets = new Dictionary<string, Texture>();
         private Dictionary<TmxLayer, RenderLayer> layers = new Dictionary<TmxLayer, RenderLayer>();
-        public TiledRenderer(TmxMap map)
+        public TileRenderingService(TmxMap map)
         {
             this.map = map;
             foreach (var tileset in map.Tilesets)

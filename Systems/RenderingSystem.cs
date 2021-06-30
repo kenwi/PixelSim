@@ -18,7 +18,7 @@ namespace PixelSim.Systems
         public void Init()
         {
             var simSize = new Vector2u(32, 32);
-            var vertices = QuadService.CreateVertexArray(simSize.X * simSize.Y, new Vector2u(window.Size.X, window.Size.Y), new Vector2u(16, 16), Color.White);
+            var vertices = QuadService.CreateVertexArray(simSize.X * simSize.Y, new Vector2u(window.Size.X, window.Size.Y), new Vector2u(32, 32), Color.White);
             buffer = new VertexBuffer(simSize.X * simSize.Y * 4, PrimitiveType.Quads, VertexBuffer.UsageSpecifier.Static);
             buffer.Update(vertices);
 

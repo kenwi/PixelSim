@@ -42,6 +42,7 @@ namespace PixelSim
                 .OneFrame<KeyboardEvent>()
                 .OneFrame<FpsCounterEvent>()
                 .OneFrame<LogEvent>()
+                .OneFrame<MapReloadEvent>()
                 .OneFrame<VertexUpdateEvent>();
             systems.Init();
         }
