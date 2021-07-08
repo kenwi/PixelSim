@@ -1,8 +1,8 @@
 using Leopotam.Ecs;
+using Microsoft.AspNetCore.SignalR.Client;
 using PixelSim.Components.Events;
 using PixelSim.Systems;
 using SFML.Graphics;
-using SFML.System;
 using SFML.Window;
 
 namespace PixelSim
@@ -13,11 +13,11 @@ namespace PixelSim
         EcsSystems systems;
         RenderWindow window;
         View view;
+        HubConnection connection { get; set; } = new HubConnectionBuilder().WithUrl("https://hub.m0b.services/gamehub").Build();
 
-        public void Init(uint width, uint height, uint targetFps = 120, bool vSync = false)
+        public void Init(uint width, uint height, uint targetFps = 60, bool vSync = false)
         {
             window = new RenderWindow(new VideoMode(1024, 768, VideoMode.DesktopMode.BitsPerPixel), "PixelSim");
-            window.Position += new Vector2i(2000, 0);
             window.SetFramerateLimit(!vSync ? targetFps : 0);
             window.SetVerticalSyncEnabled(vSync);
             window.Closed += (sender, e) =>
@@ -25,25 +25,27 @@ namespace PixelSim
                 window.Close();
             };
 
+            var gameState = new GameState();
             view = window.DefaultView;
             world = new EcsWorld();
             systems = new EcsSystems(world)
-                .Add(new InputSystem())
-                .Add(new InputProcessingSystem())
-                .Add(new TileRenderingSystem())
+                .Add(new PlayerSystem())
+                .Add(new SignalRNetworkingSystem())
+                .Add(new MovementSystem())
                 .Add(new FpsCounterSystem())
                 .Add(new LoggingSystem())
 
                 .Inject(window)
                 .Inject(view)
+                .Inject(gameState)
+                .Inject(connection)
 
-                .OneFrame<InputReleasedEvent>()
-                .OneFrame<MouseEvent>()
+                //.OneFrame<InputReleasedEvent>()
+                //.OneFrame<MouseEvent>()
+                .OneFrame<MoveRequest>()
                 .OneFrame<KeyboardEvent>()
                 .OneFrame<FpsCounterEvent>()
-                .OneFrame<LogEvent>()
-                .OneFrame<MapReloadEvent>()
-                .OneFrame<VertexUpdateEvent>();
+                .OneFrame<LogEvent>();
             systems.Init();
         }
 

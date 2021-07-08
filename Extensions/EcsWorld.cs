@@ -1,6 +1,8 @@
 using Leopotam.Ecs;
 using PixelSim.Components.Events;
+using PixelSim.Services;
 using SFML.Graphics;
+using Spectre.Console;
 
 namespace PixelSim.Extensions
 {
@@ -8,7 +10,8 @@ namespace PixelSim.Extensions
     {
         public static void SendLogEvent(this EcsWorld world, string message)
         {
-            world.NewEntity().Get<LogEvent>().Value = message;
+            LoggingService.WriteLine(message);
+            //world.NewEntity().Get<LogEvent>().Value = message;
         }
 
         public static void SendVertexUpdateEvent(this EcsWorld world, Vertex[] vertices)
