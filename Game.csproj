@@ -4,8 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SFML.Net" Version="*"/>
-    <PackageReference Include="Spectre.Console" Version="0.39.1-preview.0.31"/>
-    <PackageReference Include="TiledSharp" Version="*"/>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.0-preview.5.21301.17" />
+    <PackageReference Include="SFML.Net" Version="*" />
+    <PackageReference Include="Spectre.Console" Version="0.39.1-preview.0.31" />
+    <PackageReference Include="TiledSharp" Version="*" />
   </ItemGroup>
 </Project>
